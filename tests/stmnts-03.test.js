@@ -18,7 +18,6 @@ test('rectanglePerimeter', () => {
   expect(rectanglePerimeter(4, 5)).toBeTypeOf('number');
   expect(rectanglePerimeter(4, 5)).toBeCloseTo(18);
 });
-
 test('rectangleArea', () => {
   expect(rectangleArea(2, 3)).toBeTypeOf('number');
   expect(rectangleArea(2, 3)).toBeCloseTo(6);
@@ -32,7 +31,6 @@ test('rectangleArea', () => {
   expect(rectangleArea(4.2, 5)).toBeTypeOf('number');
   expect(rectangleArea(4.2, 5)).toBeCloseTo(21);
 });
-
 test('circleCircumference', () => {
   expect(circleCircumference(2)).toBeTypeOf('number');
   expect(circleCircumference(2)).toBeCloseTo(12.57);
@@ -41,7 +39,6 @@ test('circleCircumference', () => {
   expect(circleCircumference(4)).toBeTypeOf('number');
   expect(circleCircumference(4)).toBeCloseTo(25.13);
 });
-
 test('circleArea', () => {
   expect(circleArea(2)).toBeTypeOf('number');
   expect(circleArea(2)).toBeCloseTo(12.57);
@@ -50,7 +47,6 @@ test('circleArea', () => {
   expect(circleArea(4)).toBeTypeOf('number');
   expect(circleArea(4)).toBeCloseTo(50.27);
 });
-
 test('triangleArea', () => {
   expect(triangleArea(2, 3)).toBeTypeOf('number');
   expect(triangleArea(2, 3)).toBeCloseTo(3);
@@ -61,7 +57,6 @@ test('triangleArea', () => {
   expect(triangleArea(4.5, 5.5)).toBeTypeOf('number');
   expect(triangleArea(4.5, 5.5)).toBeCloseTo(12.38);
 });
-
 test('pythagorean', () => {
   expect(pythagorean(3, 4)).toBeTypeOf('number');
   expect(pythagorean(3, 4)).toBeCloseTo(5);
